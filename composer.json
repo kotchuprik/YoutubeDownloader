@@ -1,37 +1,40 @@
 {
-    "name": "masih/youtubedownloader",
-    "type": "library",
-    "description": "Youtube video downloader",
-    "keywords": ["youtube", "download", "downloader", "simple", "masih"],
-    "version": "1.1",
-    "homepage": "https://github.com/masihyeganeh/YoutubeDownloader",
-    "license": "MIT",
-
-    "authors": [
-        {
-            "name": "Masih Yeganeh",
-            "homepage": "http://www.dogtag.ir/"
-        }
-    ],
-
-    "support":{
-        "email":"goodboy.php@gmail.com",
-        "issues":"https://github.com/masihyeganeh/YoutubeDownloader/issues"
-    },
-
-    "require": {
-        "php": ">=5.3",
-        "guzzle/guzzle": "~3.7",
-        "dflydev/apache-mime-types": "1.0.*@dev",
-        "mwhite/random-uagent": "dev-master"
-    },
-
-    "require-dev": {
-        "janmarek/mockista": "dev-master",
-        "satooshi/php-coveralls": "dev-master"
-    },
-
-    "autoload": {
-        "psr-0": {"Masih": ""}
+  "name": "masih/youtubedownloader",
+  "type": "library",
+  "description": "Youtube video downloader",
+  "keywords": [
+    "youtube",
+    "download",
+    "downloader",
+    "simple",
+    "masih"
+  ],
+  "version": "1.1",
+  "homepage": "https://github.com/masihyeganeh/YoutubeDownloader",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Masih Yeganeh",
+      "homepage": "http://www.dogtag.ir/"
     }
+  ],
+  "support": {
+    "email": "goodboy.php@gmail.com",
+    "issues": "https://github.com/masihyeganeh/YoutubeDownloader/issues"
+  },
+  "require": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": "~6.0",
+    "dflydev/apache-mime-types": "1.0.*@dev",
+    "mwhite/random-uagent": "dev-master"
+  },
+  "require-dev": {
+    "janmarek/mockista": "dev-master",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Masih": ""
+    }
+  }
 }
